@@ -1,0 +1,28 @@
+{
+  "name": "x402-verify",
+  "version": "1.0.0",
+  "description": "x402-style HTTP 402 paid verification endpoint prototype",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "start": "tsx src/server.ts",
+    "test": "vitest run",
+    "demo": "bash demo.sh"
+  },
+  "keywords": ["x402", "http-402", "payment", "verification"],
+  "author": "Elyan Labs (sophia-elya)",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.2.0",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
